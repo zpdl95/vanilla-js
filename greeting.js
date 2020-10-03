@@ -26,7 +26,7 @@ function paintGreeting(text) {
   /*폼에서 showing 클래스를 제거함, html에서 안보임*/
   form.classList.remove(SHOWING_CN);
   greeting.classList.add(SHOWING_CN);
-  greeting.innerText = `Hello ${text}`;
+  greeting.innerText = `Wellcome ${text}`;
 }
 
 function loadName() {
