@@ -6,7 +6,7 @@ const TODOS_LS = "toDos";
 let toDos = [];
 
 function deleteToDo(event) {
-  /*이벤트가 발생한 버튼*/
+  /*이벤트가 발생한 버튼 --- .target은 주로 클릭을 할때 사용함*/
   const btn = event.target;
   /*버튼의 부모 태그를 정함*/
   const li = btn.parentNode;
