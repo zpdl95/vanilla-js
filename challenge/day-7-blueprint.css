@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  background-color: black;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+button {
+  width: 24%;
+  height: 19%;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: plum;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.c {
+  background-color: gold;
+}
+
+.plus,
+.minus,
+.times,
+.divide {
+  background-color: orange;
+}
+
+input {
+  width: 65%;
+  height: 10%;
+  text-align: right;
+  font-size: 35px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.zero {
+  width: 49%;
+}

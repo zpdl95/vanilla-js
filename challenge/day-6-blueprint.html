@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="day-6-blueprint.css">
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+    <h3 class="js-h3Num">Generate a number between 0 and 5</h3>
+    <div>
+      <input
+        class="js-range"
+        type="range"
+        list="numRange"
+        min="5"
+        max="200"
+        step="5"
+        value="5"
+      />
+      <datalist id="numRange">
+        <option value="50"></option>
+        <option value="100"></option>
+        <option value="150"></option>
+        <option value="200"></option>
+      </datalist>
+    </div>
+    <label for="guessNum">Guess the number:</label>
+    <input type="number" id="guessNum" max="200" min="5" />
+    <input type="button" value="Play!" />
+    <div class="result js-none">
+      <h4></h4>
+      <h3></h3>
+    </div>
+    <script src="day-6-blueprint.js"></script>
+  </body>
+</html>

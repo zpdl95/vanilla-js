@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+#guessNum {
+  width: 50px;
+}
+
+.js-none {
+  display: none;
+}
+
+.js-showing {
+  display: block;
+}
